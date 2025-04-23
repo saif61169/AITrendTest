@@ -10,6 +10,6 @@ Original file is located at
 def is_palindrome(num):
     return str(num) == str(num)[::-1]
 
-for i in range(100, 200):
+for i in range(200, 300):
     if is_palindrome(i):
         print(i)
